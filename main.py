@@ -36,13 +36,15 @@ def armstrong(n):
     return jsonify(result)
 
 
-@app.route('/myData')
+@app.route('/myData', methods=['GET'])
 def myData():
     result = {
         "1": {
             "category": "Pizza",
             "items": "25",
             "img_url": "https://cdn.pixabay.com/photo/2017/12/05/20/10/pizza-3000285_1280.png",
+            "img_height": "160",
+            "img_width": "160",
             "menu": {
                 "1": {
                     "name": "Pepperoni",
@@ -78,6 +80,8 @@ def myData():
             "category": "Salads",
             "items": "40",
             "img_url": "https://cdn.pixabay.com/photo/2016/12/05/10/07/dish-1883501_1280.png",
+            "img_height": "160",
+            "img_width": "160",
             "menu": {
                 "1": {
                     "name": "Summer Asian Slaw",
@@ -113,6 +117,8 @@ def myData():
             "category": "Desserts",
             "items": "30",
             "img_url": "https://cdn.pixabay.com/photo/2016/04/04/09/09/dessert-1306397_1280.png",
+            "img_height": "160",
+            "img_width": "160",
             "menu": {
                 "1": {
                     "name": "Fried Ice Cream",
@@ -147,7 +153,9 @@ def myData():
         "4": {
             "category": "Pasta",
             "items": "44",
-            "img_url": "https://cdn.pixabay.com/photo/2017/04/08/06/27/penne-2212559_1280.png",
+            "img_url": "https://cdn.pixabay.com/photo/2017/03/31/03/37/food-2190301_1280.png",
+            "img_height": "140",
+            "img_width": "140",
             "menu": {
                 "1": {
                     "name": "Pesto",
@@ -183,6 +191,8 @@ def myData():
             "category": "Beverages",
             "items": "30",
             "img_url": "https://cdn.pixabay.com/photo/2018/05/12/19/56/coffee-cup-3394435_1280.png",
+            "img_height": "140",
+            "img_width": "140",
             "menu": {
                 "1": {
                     "name": "Hot Chocolate Frost",
