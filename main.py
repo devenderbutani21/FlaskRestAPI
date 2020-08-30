@@ -45,6 +45,8 @@ def myData():
             "img_url": "https://cdn.pixabay.com/photo/2017/12/05/20/10/pizza-3000285_1280.png",
             "img_height": "160",
             "img_width": "160",
+            "pos_left" : "-70.0",
+            "pos_bottom": "-32.5",
             "menu": {
                 "1": {
                     "name": "Pepperoni",
@@ -80,8 +82,10 @@ def myData():
             "category": "Salads",
             "items": "40",
             "img_url": "https://cdn.pixabay.com/photo/2016/12/05/10/07/dish-1883501_1280.png",
-            "img_height": "160",
-            "img_width": "160",
+            "img_height": "120",
+            "img_width": "120",
+            "pos_left" : "-50.0",
+            "pos_bottom": "-10.0",
             "menu": {
                 "1": {
                     "name": "Summer Asian Slaw",
@@ -117,8 +121,10 @@ def myData():
             "category": "Desserts",
             "items": "30",
             "img_url": "https://cdn.pixabay.com/photo/2016/04/04/09/09/dessert-1306397_1280.png",
-            "img_height": "160",
-            "img_width": "160",
+            "img_height": "120",
+            "img_width": "120",
+            "pos_left" : "-50.0",
+            "pos_bottom": "-12.5",
             "menu": {
                 "1": {
                     "name": "Fried Ice Cream",
@@ -154,8 +160,10 @@ def myData():
             "category": "Pasta",
             "items": "44",
             "img_url": "https://cdn.pixabay.com/photo/2017/03/31/03/37/food-2190301_1280.png",
-            "img_height": "140",
-            "img_width": "140",
+            "img_height": "100",
+            "img_width": "100",
+            "pos_left" : "-40.0",
+            "pos_bottom": "-2.5",
             "menu": {
                 "1": {
                     "name": "Pesto",
@@ -191,8 +199,10 @@ def myData():
             "category": "Beverages",
             "items": "30",
             "img_url": "https://cdn.pixabay.com/photo/2018/05/12/19/56/coffee-cup-3394435_1280.png",
-            "img_height": "140",
-            "img_width": "140",
+            "img_height": "100",
+            "img_width": "100",
+            "pos_left" : "-50.0",
+            "pos_bottom": "-7.5",
             "menu": {
                 "1": {
                     "name": "Hot Chocolate Frost",
